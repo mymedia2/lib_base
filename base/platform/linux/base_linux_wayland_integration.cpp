@@ -13,11 +13,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 #include <QtCore/QPointer>
 #include <QtGui/QWindow>
 
-#include <connection_thread.h>
-#include <registry.h>
-#include <surface.h>
-#include <xdgforeign.h>
-#include <idleinhibit.h>
+#include <KWayland/Client/connection_thread.h>
+#include <KWayland/Client/registry.h>
+#include <KWayland/Client/surface.h>
+#include <KWayland/Client/xdgforeign.h>
+#include <KWayland/Client/idleinhibit.h>
 
 using namespace KWayland::Client;
 
